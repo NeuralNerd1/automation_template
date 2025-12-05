@@ -1,9 +1,8 @@
-# pages/facebook_login_page.py
 from selenium.webdriver.common.by import By
 from utils.base_page import BasePage
 import time
 
-class FacebookLoginPage(BasePage): # Inherit BasePage for robust methods
+class FacebookLoginPage(BasePage):
     """Page Object Model for the Facebook Login Page."""
 
     
@@ -14,7 +13,6 @@ class FacebookLoginPage(BasePage): # Inherit BasePage for robust methods
     # A generic element expected on the subsequent page (e.g., the home feed)
     _FEED_HOME_LINK = (By.CSS_SELECTOR, "div[role='main']")
 
-    # --- Interaction Methods ---
     
     def enter_credentials(self, email, password):
         """High-level method to input both fields."""

@@ -6,20 +6,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 
 class DriverFactory:
-    """
-    Implements the Factory Pattern to create a WebDriver instance 
-    based on the browser name, using the modern Service pattern.
-    """
+ 
     
     @staticmethod
     def get_driver(browser_name, headless=False, options=None):
         driver = None
         
-        # Configure default options (passed from config/CLI)
         if options is None:
             options = []
 
-        # --- CHROME LOGIC (The Fix) ---
         if browser_name.lower() == 'chrome':
             chrome_options = webdriver.ChromeOptions()
             for opt in options:
