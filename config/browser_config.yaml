@@ -1,0 +1,10 @@
+# config/browser_config.yaml
+environments:
+  staging: https://www.facebook.com # Using Facebook as the staging environment for this test
+  production: https://www.facebook.com
+
+browsers:
+  chrome:
+    options: ["--start-maximized"]
+  firefox:
+    options: ["--private"]

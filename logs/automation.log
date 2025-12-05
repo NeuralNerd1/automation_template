@@ -1,0 +1,12 @@
+2025-10-29 11:32:32,286 - FacebookLoginPage - INFO - Attempting login with email: fake@email.com
+2025-10-29 11:32:32,437 - FacebookLoginPage - INFO - Clicked element: ('name', 'login')
+2025-10-29 11:32:42,721 - FacebookLoginPage - ERROR - Timeout waiting for element: ('css selector', "div[role='main']")
+2025-10-29 11:32:42,721 - FacebookLoginPage - ERROR - Verification failed: Home link not found after login.
+2025-12-04 13:19:26,473 - FacebookLoginPage - INFO - Attempting login with email: fake@email.com
+2025-12-04 13:19:26,641 - FacebookLoginPage - INFO - Clicked element: ('name', 'login')
+2025-12-04 13:19:36,790 - FacebookLoginPage - ERROR - Timeout waiting for element: ('css selector', "div[role='main']")
+2025-12-04 13:19:36,791 - FacebookLoginPage - ERROR - Verification failed: Home link not found after login.
+2025-12-04 22:57:08,629 - FacebookLoginPage - INFO - Attempting login with email: fake@email.com
+2025-12-04 22:57:08,904 - FacebookLoginPage - INFO - Clicked element: ('name', 'login')
+2025-12-04 22:57:19,138 - FacebookLoginPage - ERROR - Timeout waiting for element: ('css selector', "div[role='main']")
+2025-12-04 22:57:19,139 - FacebookLoginPage - ERROR - Verification failed: Home link not found after login.
