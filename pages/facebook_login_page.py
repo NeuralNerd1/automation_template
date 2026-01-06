@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from utils.base_page import BasePage
+from core.element_resolver import resolve_healing_element
 import time
 
 class FacebookLoginPage(BasePage):

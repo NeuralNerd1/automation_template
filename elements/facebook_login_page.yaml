@@ -1,0 +1,35 @@
+EMAIL_INPUT:
+  primary:
+    by: name
+    value: email
+  fallbacks:
+    - by: css
+      value: "input[type='text']"
+  metadata:
+    tag: input
+
+PASSWORD_INPUT:
+  primary:
+    by: name
+    value: pass
+  fallbacks:
+    - by: css
+      value: "input[type='password']"
+  metadata:
+    tag: input
+
+LOGIN_BUTTON:
+  primary:
+    by: name
+    value: login
+  fallbacks:
+    - by: xpath
+      value: "//button[.//text()[contains(.,'Log')]]"
+  metadata:
+    tag: button
+    text: Log in
+
+FEED_HOME_LINK:
+  primary:
+    by: css
+    value: "div[role='main']"

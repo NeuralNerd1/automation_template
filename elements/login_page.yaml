@@ -1,0 +1,14 @@
+login_button:
+  primary:
+    by: css
+    value: "[data-testid='login-button']"
+
+  fallbacks:
+    - by: xpath
+      value: "//button[normalize-space()='Login']"
+    - by: css
+      value: "button[type='submit']"
+
+  metadata:
+    tag: button
+    text: Login

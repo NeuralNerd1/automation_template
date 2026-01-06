@@ -1,0 +1,23 @@
+# Python virtual environments
+myenv3/
+venv/
+.env/
+
+# Node
+node_modules/
+
+# Logs & artifacts
+logs/
+*.log
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
