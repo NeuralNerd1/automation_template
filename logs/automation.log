@@ -10,3 +10,7 @@
 2025-12-04 22:57:08,904 - FacebookLoginPage - INFO - Clicked element: ('name', 'login')
 2025-12-04 22:57:19,138 - FacebookLoginPage - ERROR - Timeout waiting for element: ('css selector', "div[role='main']")
 2025-12-04 22:57:19,139 - FacebookLoginPage - ERROR - Verification failed: Home link not found after login.
+2026-01-06 07:24:27,223 - FacebookLoginPage - INFO - Attempting login with email: fake@email.com
+2026-01-06 07:24:27,379 - FacebookLoginPage - INFO - Clicked element: ('name', 'login')
+2026-01-06 07:24:28,653 - FacebookLoginPage - INFO - Verification passed: Home link found after login.
+2026-01-06 07:24:28,821 - BasePage - INFO - Screenshot saved to: logs/FAILURE_test_unsuccessful_login_attempt_20260106-072428.png
